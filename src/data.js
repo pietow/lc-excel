@@ -38,3 +38,5 @@ const data = [
     ],
     ['The Hobbit', 'J. R. R. Tolkien', 'English', '1937', '100 million'],
 ]
+
+export default data

@@ -1,10 +1,9 @@
 /** @format */
-
-import logo from './logo.svg'
-import './App.css'
+import data from './data.js'
 
 function App() {
-    return <div className="App"></div>
+    console.log(data)
+    return <div className="App">Hello</div>
 }
 
 export default App
