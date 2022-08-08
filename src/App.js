@@ -1,15 +1,16 @@
 /** @format */
-import data from './data.js'
+import React, { useState } from 'react'
+import iniData from './data.js'
 import './style.css'
 
 function App() {
-    /* console.log(data) */
+    const [data, setData] = useState(iniData)
     return (
         <table>
             <tbody>
                 {data.map((row, idx) => (
-                    <tr>
-                        <td key={idx}>{row[0]}</td>
+                    <tr key={idx}>
+                        <td>{row[0]}</td>
                     </tr>
                 ))}
             </tbody>
