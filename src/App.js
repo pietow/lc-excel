@@ -32,7 +32,7 @@ function App() {
 
     return (
         <ul onDoubleClick={showEditor}>
-            {iniData.map((item, index) => {
+            {data.map((item, index) => {
                 if (edit && edit.row === index) {
                     item = (
                         <form onSubmit={save}>
